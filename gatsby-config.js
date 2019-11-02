@@ -3,15 +3,15 @@ module.exports = {
     {
       resolve: 'gatsby-source-wordpress',
       options: {
-        baseUrl: '127.0.0.1:8002',
+        baseUrl: 'src.alejandratopa.com',
         protocol: 'http',
         hostingWPCOM: false,
         useACF: true,
         verboseOutput: true,
         perPage: 100,
         searchAndReplaceContentUrls: {
-          sourceUrl: 'http://127.0.0.1:8002',
-          replacementUrl: 'http://127.0.0.1:8000',
+          sourceUrl: 'http://src.alejandratopa.com',
+          replacementUrl: 'https://alejandratopa.com',
         },
         concurrentRequests: 10,
         includedRoutes: [
