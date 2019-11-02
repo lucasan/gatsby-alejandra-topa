@@ -1,0 +1,30 @@
+#services {
+  margin: 50px 0;
+  padding-bottom: 30px;
+
+  .col {
+    position: relative;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 2em;
+    color: var(--brand-accent-color);
+  }
+
+  .service-image {
+    overflow: hidden;
+    max-height: 175px;
+    margin-bottom: 25px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .btn-holder {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

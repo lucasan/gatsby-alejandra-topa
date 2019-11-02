@@ -1,0 +1,56 @@
+.hero-section {
+  position: relative;
+}
+
+.hero-description {
+  background-color: var(--brand-secondary-lighter);
+  width: 35%;
+  height: 60%;
+  position: absolute;
+  bottom: 2%;
+  right: 10%;
+  border-radius: 20px;
+
+  .icon-holder {
+    transform: translate(0, -45%);
+    text-align: center;
+
+    img {
+      background-color: rgba(255,255,255,0.8);
+      border-radius: 10%;
+    }
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
+  }
+
+  .hero-description--motto {
+    color: #fff;
+    text-align: center;
+
+    p {
+      font-size: 2vw;
+    }
+
+    @media screen and (max-width: 800px) {
+      transform: translate(0, 4vh);
+
+      p {
+        font-size: 3vw;
+      }
+    }
+
+    @media screen and (min-width: 1200px){
+      transform: translate(0, 4vh);
+    }
+
+    @media screen and (min-width: 1500px){
+      transform: translate(0, 7vh);
+    }
+
+    h1 {
+      font-size: 3.3vw;
+    }
+  }
+}

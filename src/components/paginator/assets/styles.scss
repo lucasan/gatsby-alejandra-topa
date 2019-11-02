@@ -1,0 +1,10 @@
+.pagination {
+  justify-content: center !important;
+}
+
+.page-item.active.disabled .page-link {
+  z-index: 1;
+  color: var(--brand-primary-lighter);
+  background-color: var(--brand-main-color);
+  border-color: var(--brand-primary-lighter);
+}

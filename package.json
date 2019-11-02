@@ -1,0 +1,41 @@
+{
+  "name": "@lucasan/alejandra-topa",
+  "author": "Lucas Torres <lucasan37@gmail.com>",
+  "description": "Alejandra ToPa WP - Gatsby Theme",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.6",
+    "@rhysforyou/gatsby-plugin-react-helmet-async": "^0.1.1",
+    "bootstrap": "^4.3.1",
+    "gatsby": "^2.15.34",
+    "gatsby-image": "^2.2.19",
+    "gatsby-plugin-google-tagmanager": "^2.1.12",
+    "gatsby-plugin-manifest": "^2.2.16",
+    "gatsby-plugin-react-helmet": "^3.1.7",
+    "gatsby-plugin-sass": "^2.1.14",
+    "gatsby-plugin-sharp": "^2.2.24",
+    "gatsby-plugin-transition-link": "^1.13.0",
+    "gatsby-source-wordpress": "^3.1.31",
+    "gatsby-transformer-sharp": "^2.2.15",
+    "node-sass": "^4.12.0",
+    "react": "^16.10.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.10.2",
+    "react-helmet-async": "^1.0.3",
+    "react-spring": "^8.0.27"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
