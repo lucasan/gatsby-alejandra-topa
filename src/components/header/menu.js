@@ -18,12 +18,6 @@ const MainMenuItems = () => {
               url
               object_id
               object_slug
-              wordpress_children {
-                title
-                url
-                object_id
-                object_slug
-              }
             }
           }
         }

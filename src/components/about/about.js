@@ -17,7 +17,7 @@ const About = (props) => {
           </Col>
           <Col>
             <article dangerouslySetInnerHTML={{__html: post.acf.texto_secundario}} />
-            <Link className={'btn btn-info'} to={post.acf.link_secundario.replace('http://127.0.0.1:8000', '')}>
+            <Link className={'btn btn-info'} to={post.acf.link_secundario.replace('https://alejandratopa.com', '')}>
               Acerca de Alejandra
             </Link>
           </Col>
