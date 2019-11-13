@@ -25,7 +25,7 @@ export default (props) => {
       <Container>
         <article dangerouslySetInnerHTML={{ __html: page.content }}/>
       </Container>
-      <Container>
+      <Container id={'blog'}>
         <Row>
           <ListingItem posts={posts}/>
         </Row>

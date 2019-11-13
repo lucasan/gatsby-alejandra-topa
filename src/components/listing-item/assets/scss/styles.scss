@@ -1,53 +1,42 @@
-.blog-post-listing {
+#blog {
 
   a {
-    figure {
-      overflow: hidden;
-      max-height: 180px;
-
-      source, img {
-        max-width: 100%;
-        transition: transform .4s;
-      }
-
-      figcaption {
-        position: absolute;
-        bottom: 30%;
-        left: 50%;
-        transform: translate(-50%, -65%);
-        width: 85%;
-        opacity: 0.8;
-        transition: all .6s;
-        color: #FFF;
-
-        h3 {
-          font-weight: 800;
-        }
-
-        p {
-
-        }
-
-        div {
-          text-align: center;
-        }
-      }
-    }
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s;
+    color: var(---dark);
 
     &:hover {
-      figure {
-        background-color: lighten(rgb(46,49,146), 10%);
+      background-color: rgba(192, 223, 255, 0.2);
+    }
+  }
 
-        source, img {
-          opacity: 0.15;
-          transform: scale(1.1);
-        }
+  .col {
+    position: relative;
+  }
 
-        figcaption {
-          opacity: 1;
-          transform: translate(-50%, 50%);
-        }
+  h3 {
+    text-align: center;
+    font-size: 1.6em;
+    color: var(--brand-accent-color);
+  }
+
+  .post-image {
+    overflow: hidden;
+    max-height: 175px;
+    margin-bottom: 10px;
+
+    img {
+      max-width: 100%;
+      transition: all 0.5s;
+
+      &:hover {
+        transform: scale(1.3);
       }
     }
+  }
+
+  article p {
+    padding: 8px 15px;
   }
 }
