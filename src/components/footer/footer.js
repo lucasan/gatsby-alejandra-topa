@@ -27,7 +27,7 @@ const Footer = (props) => {
             </Col>
             <Col>
               <p>
-                <a href="https://www.psico.org/centro-37915">
+                <a href="https://www.psico.org/centro-37915" target={'_blank'} rel={'noreferrer'}>
                   <img src="https://www.psico.org/sello_calidad.png" width="162" height="97" border="0"
                        alt="Alejandra Torres - Servicios Psicológicos" />
                 </a><br/><a target={'_blank'} rel={'noreferrer'} href="http://www.psico.org/psicologos/cali">Visitar web</a>
