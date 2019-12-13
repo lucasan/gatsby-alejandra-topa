@@ -1,6 +1,6 @@
 import React from "react"
 import useSiteMetadata from "../../hooks/use-site-metadata"
-import { Container, Row, Col, Nav, NavItem } from "react-bootstrap"
+import { Col, Container, Nav, NavItem, Row } from "react-bootstrap"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronUp, faPhone } from "@fortawesome/free-solid-svg-icons"
@@ -24,6 +24,14 @@ const Footer = (props) => {
                 </a>
               </p>
               <address dangerouslySetInnerHTML={{__html: info.direccion}} />
+            </Col>
+            <Col>
+              <p>
+                <a href="https://www.psico.org/centro-37915">
+                  <img src="https://www.psico.org/sello_calidad.png" width="162" height="97" border="0"
+                       alt="Alejandra Torres - Servicios Psicológicos" />
+                </a><br/><a target={'_blank'} rel={'noreferrer'} href="http://www.psico.org/psicologos/cali">Visitar web</a>
+              </p>
             </Col>
           </Row>
           <Row className={'justify-content-center'}>
